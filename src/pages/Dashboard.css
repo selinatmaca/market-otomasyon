@@ -1,0 +1,18 @@
+.dashboard-page {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  width: 100vw;
+}
+
+.product-buttons {
+  margin-bottom: 16px;
+  width: 100vw;
+  padding: 10px;
+}
+
+.cart {
+  background: #ffffff;
+  padding: 10px;
+  
+}

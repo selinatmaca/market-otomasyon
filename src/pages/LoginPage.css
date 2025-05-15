@@ -1,0 +1,57 @@
+/* src/login.css */
+
+/* ROOT YÜKSEKLİĞİNİ SAĞLA (bunu index.css’e de taşıyabilirsin) */
+html, body, #root {
+    height: 100%;
+    margin: 0;
+  }
+  
+  /* 1) Sayfa komple */
+  .login-container {
+    position: absolute;  /* Konumlandırmayı tüm alanı kaplayacak şekilde yap */
+    width: 100%;
+    height: 100%;
+    background-color: #c7d7ee;
+  }
+  
+  /* 2) Card’ı tam ortaya yerleştir */
+  .login-card {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);  /* yatay ve dikey tam ortala */
+    background-color: #f3eeee;
+    padding: 32px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    width: 90%;
+    max-width: 360px;
+    box-sizing: border-box;
+    text-align: center;                /* içeriği ortala */
+  }
+  
+  /* Başlık */
+  .login-title {
+    margin-bottom: 24px;
+    font-size: 24px;
+    font-weight: 500;
+    color: #d74b4b;
+  }
+  
+  /* Form öğeleri arası boşluk */
+  .login-form .ant-form-item {
+    margin-bottom: 16px;
+  }
+  
+  /* Buton full-width */
+  .login-form .ant-btn {
+    width: 100%;
+    height: 40px;
+    font-size: 16px;
+  }
+  
+  /* Checkbox hizalaması */
+  .login-form .ant-checkbox-wrapper {
+    line-height: 1;
+  }
+  
